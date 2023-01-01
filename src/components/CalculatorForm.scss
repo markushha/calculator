@@ -1,0 +1,30 @@
+.bottom {
+  display: flex;
+  flex-direction: row;
+
+  .def-btn {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgb(255, 119, 46);
+    transition: 0.2s ease;
+
+    &:hover {
+      background: rgb(255, 103, 21);
+    }
+  }
+
+  .operations {
+    display: flex;
+    color: white;
+    flex-direction: column;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+
